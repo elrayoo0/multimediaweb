@@ -1,0 +1,185 @@
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    
+}
+
+/* Header Styles */
+
+
+header img {
+    width: 100%;
+    height: 50%;
+}
+
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+/* Section Styles */
+section {
+    padding: 20px; 
+    margin: 20px; 
+   
+}
+
+
+
+/* Styled Image Styles */
+.styled-image {
+    max-width: 200%;
+    height: 200%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: grey;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 100%;
+    transition: background-color 0.3s;
+    width: 50%;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: grey;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: black;
+}
+
+h1{
+  text-align: center;
+  color: grey;
+  padding: 20px;
+  background-color: white;
+}
+
+p{
+    width: 70%;
+    
+    margin-left: 5%;
+}
+
+h2{
+    margin-left: 5%;
+}
+
+ul{
+    margin-left: 5%;
+}
+
+.content-container {
+    width: 600px; /* Set a width for the container */
+    margin: 0 auto; /* Center the container */
+    overflow: hidden; /* Clear floats */
+}
+
+.text {
+    float: left; /* Float text to the left */
+    width: 60%; /* Set the width of the text */
+}
+
+.image {
+    float: right; /* Float image to the right */
+    width: 40%; /* Set the width of the image */
+    height: 50%;
+
+}
+
+h3{
+    color: green;
+}
+
+#quiz-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+          
